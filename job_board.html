@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore job opportunities at your university and beyond.">
+    <meta name="keywords" content="jobs, internships, career, university, part-time work">
+    <meta name="author" content="StudentMart">
+    <title>Job Board - StudentMart</title>
+
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"
+        integrity="sha512-dTlKHQICLdXVYS99+Kqf4iA8UnWPIXj4n5y4vMkT12KCUThI/oLk4dr6/qeZ2AIOHk3G28VqaHRcL5DzJQ3L0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="buy_sell.html">Buy & Sell</a></li>
+                <li><a href="job_board.html" class="active">Job Board</a></li>
+                <li><a href="accommodation.html">Accommodation</a></li>
+                <li><a href="freelancing_services.html">Freelancing & Services</a></li>
+                <li><a href="NewsEvents.html">Events & News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Explore Job Opportunities</h1>
+            <p>Find part-time jobs, internships, and career opportunities tailored for students.</p>
+        </section>
+
+        <!-- Search and Filter Section -->
+        <section class="search-filter">
+            <form action="" method="get">
+                <input type="text" placeholder="Search jobs..." name="search" class="search-input">
+                <select name="category" class="filter-dropdown">
+                    <option value="all">All Categories</option>
+                    <option value="part-time">Part-Time</option>
+                    <option value="internship">Internships</option>
+                    <option value="full-time">Full-Time</option>
+                </select>
+                <select name="location" class="filter-dropdown">
+                    <option value="all">All Locations</option>
+                    <option value="on-campus">On Campus</option>
+                    <option value="remote">Remote</option>
+                    <option value="city">City</option>
+                </select>
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </section>
+
+        <!-- Job Listings Section -->
+        <section class="job-listings">
+            <h2>Available Jobs</h2>
+            <div class="job-grid">
+                <div class="job-card">
+                    <h3>Student Assistant</h3>
+                    <p><strong>Category:</strong> Part-Time</p>
+                    <p><strong>Location:</strong> On Campus</p>
+                    <p><strong>Description:</strong> Assist lecturers with administrative tasks.</p>
+                    <a href="#" class="btn btn-secondary">Apply Now</a>
+                </div>
+
+                <div class="job-card">
+                    <h3>Graphic Designer Intern</h3>
+                    <p><strong>Category:</strong> Internship</p>
+                    <p><strong>Location:</strong> Remote</p>
+                    <p><strong>Description:</strong> Work with our design team on creative projects.</p>
+                    <a href="#" class="btn btn-secondary">Apply Now</a>
+                </div>
+
+                <div class="job-card">
+                    <h3>Barista</h3>
+                    <p><strong>Category:</strong> Part-Time</p>
+                    <p><strong>Location:</strong> City</p>
+                    <p><strong>Description:</strong> Serve coffee and manage customer orders.</p>
+                    <a href="#" class="btn btn-secondary">Apply Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="post-job-cta">
+            <h2>Have a job opportunity? Post it here!</h2>
+            <a href="post_job.html" class="btn btn-primary">Post a Job</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 StudentMart. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
